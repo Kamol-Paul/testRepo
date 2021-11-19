@@ -16,6 +16,11 @@ class Cal{
 
 			System.out.println(obj.getSumVal());
 		}
+		else if (operaator == '-'){
+			Sub  obj = new Sub();
+			obj.setData(x,y);
+			System.out.println(obj.getVal());
+		}
 
 	}
 }
