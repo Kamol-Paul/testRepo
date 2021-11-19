@@ -4,7 +4,7 @@ class Cal{
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 
-		char operaator = in.nextChar();
+		char operaator = in.next().charAt(0);
 
 		int x = in.nextInt();
 		int y = in.nextInt();
@@ -14,7 +14,7 @@ class Cal{
 
 			obj.setData(x,y);
 
-			System.out.pritln(obj.getSumVal());
+			System.out.println(obj.getSumVal());
 		}
 
 	}
