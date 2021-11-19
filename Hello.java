@@ -5,6 +5,9 @@ public class Hello{
 
 		int subRes = sub(10,7);
 		System.out.println(subRes);
+
+		int mulRes = mul(4,3);
+		System.out.println(mulRes);
 	}
 
 	static int sum(int x, int y){
@@ -13,5 +16,8 @@ public class Hello{
 
 	static int sub(int a, int b){
 		return a-b;
+
+	static int mul(int x, int y){
+		return x*y;
 	}
 }
